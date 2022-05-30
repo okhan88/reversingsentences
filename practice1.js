@@ -36,6 +36,7 @@ const list = []
     let added = list.push(word1[5], word1[4], word1[3], word1[2], word1[1], word1[0])
     console.log(list)
 
+// outcome: [ 'much', 'very', 'program', 'this', 'like', 'i' ]
 
 
 
