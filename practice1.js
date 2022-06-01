@@ -20,8 +20,26 @@
 */
 
 
-// long method below
 
+function reverseSentence() {
+
+    const string2 = []
+    const string1 = 'i like this program very much'
+    const word1 = string1.split(' ')
+
+    for(let i = 0; i < string1.length; i++) {
+
+        
+
+    }
+
+    console.log(string2.join(' '))
+}
+
+reverseSentence()
+
+
+/*
 const string1 = 'i like this program very much'
 const word1 = string1.split(' ');
 console.log (word1[0])
