@@ -14,9 +14,6 @@
  step 4: push the first word of the solution string ("much") into string2
  step 5: push the rest of the words in order into string2 in order to get desired string
 
-
-
-
 */
 
 function reverseSentence() {
@@ -24,12 +21,13 @@ function reverseSentence() {
     let string1 = "i like this program very much"
     let word = string1.split(' ');
 
-
     for(let i = word.length - 1; i >= 0; i--) {
         string2.push(word[i])
-        console.log(string2.join(' '))
 
     }
+    
+    console.log(string2.join(' '))
+
     return string2
 }
 
