@@ -19,8 +19,30 @@
 
 */
 
+function reverseSentence() {
+    const string2 = []
+    let string1 = "i like this program very much"
+    let word = string1.split(' ');
 
 
+    for(let i = 0; i < word.length; i++) {
+        string2.push(word[i])
+        console.log(string2)
+
+    }
+    return word
+}
+
+reverseSentence()
+
+
+// trying to test if .reverse works
+const jump = ["i like cheese"]
+let big = jump.reverse
+console.log (big)
+
+
+/*
 function reverseSentence() {
 
     const string2 = []
@@ -37,7 +59,7 @@ function reverseSentence() {
 }
 
 reverseSentence()
-
+*/
 
 /*
 const string1 = 'i like this program very much'
