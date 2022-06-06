@@ -27,7 +27,7 @@ function reverseSentence() {
 
     for(let i = word.length - 1; i >= 0; i--) {
         string2.push(word[i])
-        console.log(string2)
+        console.log(string2.join(' '))
 
     }
     return string2
