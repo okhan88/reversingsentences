@@ -25,21 +25,18 @@ function reverseSentence() {
     let word = string1.split(' ');
 
 
-    for(let i = 0; i < word.length; i++) {
+    for(let i = word.length - 1; i >= 0; i--) {
         string2.push(word[i])
         console.log(string2)
 
     }
-    return word
+    return string2
 }
+
 
 reverseSentence()
 
 
-// trying to test if .reverse works
-const jump = ["i like cheese"]
-let big = jump.reverse
-console.log (big)
 
 
 /*
